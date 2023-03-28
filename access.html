@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ENES Data Space portal</title>
+
+  <script src="//code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+  <link href="css/custom_style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark2 fixed-top py-4">
+  <div class="container">
+	  <!--    <h1>ENES Data Space</h1>-->
+
+<a class"navbar-brand js-scroll-trigger" href="home.html" style="margin-top:20px;margin-bottom:20px;"><img class="header-image" src="img/ENES_DS_logo1.png" width="200px"><img class="header-image" src="img/ENES_DS_logo2.png" width="500px"></a>
+
+<!--    <a class="navbar-brand" href="home.html"><img class="header-image" src="img/egi_logo.png" alt="EGI Logo" width="150px"></a>-->
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="notebooks.html">Notebooks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="access.html">Access
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+             <li class="nav-item">
+                <a class="nav-link" href="data_request.php">Data Request
+                </a>
+            </li>	
+<!--        <li class="nav-item">
+          <a class="nav-link disabled" href="https://enesdataspace.vm.fedcloud.eu/jupyter/hub" target="blank">Login</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br><br><br><br>
+<!-- Page Content -->
+<div class="container">
+  <!-- Heading Row -->
+  <div class="row my-5">
+    <div class="col-lg-12">
+      <p>This guide explains how to access the ENES Data Space service.</p>
+      <p>First of all, you need to register an account with <b>Check-in</b> to get access to EGI services.
+        Once registered, you have to enroll into the <b>ENES Virtual Organization</b> used for management and security
+        purposes.
+      </p>
+    </div>
+
+
+    <div class="col-lg-12 mt-1">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12">
+		    <p class="card-text"><b>If you are already registered, log in <a href="https://enesdataspace.vm.fedcloud.eu/jupyter/hub" target="blank">here</a>, otherwise please follow the steps below to join the ENES Data Space.</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="card-title" align="left">Sign up for an EGI Account</h3>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="card-text">If you don't have an EGI Account yet, you can register
+                <a href="https://aai.egi.eu/signup" target="blank">here</a> using your institutional credentials or any other community identity providers from the EGI infrastructure. As part of this process you will be assigned a personal unique <b>EGI ID</b> which will be then used across all EGI tools and services.</p>
+              <p class="card-text">For further details, please refer to the official <a href="https://docs.egi.eu/users/check-in/signup/" target="blank">EGI documentation</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 mt-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="card-title" align="left">Join the vo.enes.org VO</h3>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="card-text">After your account is registered, click
+                <a href="https://aai.egi.eu/registry/co_petitions/start/coef:231" target="blank">here </a>
+                to enroll to the ENES VO.</p>
+            </div>
+          </div>
+          <div class="row mt-1">
+            <div class="col-sm-12">
+              <p class="card-text">The "BEGIN" button will redirect you to a compilation form. Insert your motivation
+                and agree to the Acceptable Use Policy before submitting your request.</p>
+              <p>Your petition will be handled by the VO manager as soon as possible and a notification will be sent by
+                email once the request is approved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 mt-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="card-title" align="left">Log in to the ENES Data Space service</h3>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="card-text">You should be now able to
+                <a href="https://enesdataspace.vm.fedcloud.eu/jupyter/hub" target="blank">log in</a>
+                to the service.</p>
+              <p> Authenticate to EGI Check-in to obtain an OAuth2 access token and enjoy the ENES Data Space service!</p>
+	      <!--      <p style="color:grey;">Known issue: if you encounter a 400 Bad Request error, you may need to clear browser cache and cookies</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; ENES Data Space 2021-2022</p>
+    <p class="m-0 text-center text-white">Contact us at enesds-support [at] cmcc [dot] it</p>
+                  <p class="m-0 text-center text-white"><a href="docs/ENESDS_PrivacyPolicy.pdf" class="italybtn" target="_blank">Privacy Policy</a></p>
+              <p class="m-0 text-center text-white"><a href="docs/ENESDS_TermsAndConditions.pdf" class="italybtn" target="_blank">Terms and Conditions</a></p>
+  </div>
+</footer>
+</body>
+</html>
