@@ -1,6 +1,7 @@
 # web-portal
 Web portal including information, tutorials and training materials on how to get started with the ENES Data Space features.
 
+<div align="center">
 <table>
   <tr>
     <td style="text-align: center" rowspan="3" ><img src="https://github.com/ENES-Data-Space/web-portal/raw/main/img/ENES_DS_logo.png" width="70%"></td>
@@ -14,3 +15,4 @@ Web portal including information, tutorials and training materials on how to get
     <td colspan="2" style="text-align: center;padding-top: 20px; padding-bottom: 20px;"><img src="https://github.com/ENES-Data-Space/web-portal/raw/main/img/isenes.png" width="70%"></td>
   </tr>  
 </table>
+  </div>
