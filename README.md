@@ -5,13 +5,13 @@ Web portal including information, tutorials and training materials on how to get
 
 <table>
   <tr>
-    <td rowspan="3" ><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/ENES_DS_logo.png"  width="50%" height="50%"></td>
-    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/eosc_logo.png"  width="50%" height="50%"></td>
+    <td rowspan="3" ><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/ENES_DS_logo.png"></td>
+    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/eosc_logo.png"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/egi-ace_logo.png"  width="50%" height="50%"></td>
+    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/egi-ace_logo.png"></td>
   </tr>  
   <tr>
-    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/isenes.jpg"  width="50%" height="50%"></td>
+    <td><img src="https://github.com/ENES-Data-Space/web-portal/blob/main/img/isenes.png"</td>
   </tr>  
 </table>
